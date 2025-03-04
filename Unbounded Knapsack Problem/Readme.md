@@ -1,1 +1,3 @@
 # Unbounded Knapsack Problem
+
+The Unbounded Knapsack problem is a forward dynamic programming (DP) algorithm that selects items to maximize the total value within a given capacity limit. At each step, it calculates the optimal value for each weight combination and updates the current capacity’s optimal solution using the previously obtained results. This process progressively accumulates the optimal values from capacity 0 to the maximum capacity z, ultimately storing the maximum achievable value in DP(z). Throughout this process, all items are considered at each step, and the choice that yields the highest value for the current capacity is maintained to derive the optimal result.
